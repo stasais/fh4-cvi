@@ -1,0 +1,21 @@
+[project]
+name = "fh4-cvi"
+version = "0.1.0"
+description = "Computer Vision project"
+requires-python = ">=3.8"
+dependencies = [
+    "opencv-python>=4.8",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "jupyter>=1.0",
+    "torch>=2.0",
+    "torchvision>=0.15",
+    "ultralytics>=8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
